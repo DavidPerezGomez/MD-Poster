@@ -1,0 +1,84 @@
+\documentclass[12pt,a2paper,landscape]{tikzposter}
+
+\useblockstyle{Envelope}
+\usebackgroundstyle{VerticalGradation}
+\usecolorstyle{Spain}
+\usetitlestyle{Envelope}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{blindtext}
+\usepackage{layout}
+
+\author{David Pérez, Ander Raso}
+\title{Aplicaciones de la MD en Medicina}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{columns}
+
+\column{0.5}
+\block{ENUNCIADO}{
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobortis facilisis sem. Nullam nec mi et neque pharetra
+sollicitudin. Praesent imperdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lectus velit ultrices augue,
+a dignissim nibh lectus placerat pede. Vivamus nunc nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor.
+Praesent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+}
+
+\column{0.25}
+\block{INSTANCIAS}{
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobortis facilisis sem. Nullam nec mi et neque pharetra
+sollicitudin. Praesent imperdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lectus velit ultrices augue,
+a dignissim nibh lectus placerat pede. Vivamus nunc nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor.
+Praesent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+}
+
+\column{0.25}
+\block{VAR. PREDICTORAS}{
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobortis facilisis sem. Nullam nec mi et neque pharetra
+sollicitudin. Praesent imperdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lectus velit ultrices augue,
+a dignissim nibh lectus placerat pede. Vivamus nunc nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor.
+Praesent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+}
+
+\end{columns}
+
+\begin{columns}
+
+\column{0.333}
+\block{IMG1}{
+\begin{center}
+\includegraphics[scale=0.55]{fig/arbol_decision.png}
+Figure 1: árbol de decisión\cite{A_DMAHC}
+\end{center}
+}
+
+\column{0.333}
+\block{IMG2}{
+\begin{center}
+\includegraphics[scale=0.6]{fig/tabla_clasifiacion.png}
+Figure 2: tabla de clasificación\cite{A_DMAHC}
+\end{center}
+}
+
+\column{0.333}
+\block{CONCLUSIONES}{
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam lobortis facilisis sem. Nullam nec mi et neque pharetra
+sollicitudin. Praesent imperdiet mi nec ante. Donec ullamcorper, felis non sodales commodo, lectus velit ultrices augue,
+a dignissim nibh lectus placerat pede. Vivamus nunc nunc, molestie ut, ultricies vel, semper in, velit. Ut porttitor.
+Praesent in sapien. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+}
+
+\end{columns}
+
+\block{}{
+\bibliography{bib/bib} 
+\bibliographystyle{ieeetr}
+}
+
+\end{document}
